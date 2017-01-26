@@ -12,7 +12,7 @@ You should plan and then write tests in your groups for these methods. Then we'l
 |----|----|
 |**num**| Accepts num (int), computes its factorial and returns the value |
 
-For example:
+For example:  
 ```factorial(0)``` should return ```1```  
 ```factorial(1)``` should return ```1```  
 ```factorial(-5)``` should return ```None```  
@@ -23,14 +23,14 @@ For example:
 |----|----|
 |**year**| Accepts a year (int) and checks if it is a leap year. Returns True if it is, and False if not|
 
-For example:
+For example:  
 ```check_leap_year(1900)``` should return ```False```  
 ```check_leap_year(1912)``` should return ```True```  
 ```check_leap_year(2000)``` should return ```True```  
 
 
 ## Things to keep in mind as you go -
-1. For this repo
+1. Fork this repo
 
 2. Clone the forked repo to your local computer
 
