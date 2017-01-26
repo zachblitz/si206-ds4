@@ -13,10 +13,10 @@ You should plan and then write tests in your groups for these methods. Then we'l
 |**num**| Accepts num (int), computes its factorial and returns the value |
 
 For example:
-```factorial(0)``` should return ```1```
-```factorial(1)``` should return ```1```
-```factorial(-5)``` should return ```None```
-```factorial(5)``` should return ```120```
+```factorial(0)``` should return ```1```  
+```factorial(1)``` should return ```1```  
+```factorial(-5)``` should return ```None```  
+```factorial(5)``` should return ```120```  
 
 ## check_leap_year(year)
 |Parameter| Function Description|
@@ -24,13 +24,15 @@ For example:
 |**year**| Accepts a year (int) and checks if it is a leap year. Returns True if it is, and False if not|
 
 For example:
-```check_leap_year(1900)``` should return ```False```
-```check_leap_year(1912)``` should return ```True```
-```check_leap_year(2000)``` should return ```True```
+```check_leap_year(1900)``` should return ```False```  
+```check_leap_year(1912)``` should return ```True```  
+```check_leap_year(2000)``` should return ```True```  
 
 
 ## Things to keep in mind as you go -
-1. Initialize a local git repository (git init)
+1. For this repo
+
+2. Clone the forked repo to your local computer
 
 2. Check status continuously to keep track of changes in your code and directory (git status)
 
