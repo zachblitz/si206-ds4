@@ -47,6 +47,8 @@ class TestCases(unittest.TestCase):
         self.assertEqual(check_leap_year(2000), True)
     def test6(self):
         self.assertEqual(check_leap_year(1990), False)
+    def test7(self):
+        self.assertEqual(check_leap_year(2012), True)
 
 
 unittest.main(verbosity = 2)
