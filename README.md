@@ -28,18 +28,19 @@ For example:
 ```check_leap_year(1912)``` should return ```True```  
 ```check_leap_year(2000)``` should return ```True```  
 
+### Things to keep in mind as you go
+1. Fork and then clone the DS4 repository here ```git clone <remote repo URL``` - https://github.com/yjlintw/si206-test. If you cd to get inside the new directory, it already contains a local git repository (.git) within it.
 
-## Things to keep in mind as you go -
-1. Fork this repo
+2. Check status continuously to keep track of changes in your code and directory ```git status```
 
-2. Clone the forked repo to your local computer
+3. After writing each test, add your modified code to the local repo ```git add <filename>```
 
-2. Check status continuously to keep track of changes in your code and directory (git status)
+4. Commit the changes in code to the local repo ```git commit -m <commit message>```
 
-3. After writing each test, add your modified code to the local repo (git add <filename>)
+5. After each commit, check the history of your commits ```git log```
 
-4. Commit the changes in code to the local repo (git commit <filename> )
+6. Once all test cases are done, push your code to github to the repo you had forked from DS4. (Use the same URL you had used for cloning)
 
-5. After each commit, check the history of your commits (git log)
-
-6. Once all test cases are done, push your code to github. You may need to create a repository on github for that. (git 
+  ```git remote add origin <remote repository URL> ```
+  ```git remote -v```
+  ```git push -u origin master```
