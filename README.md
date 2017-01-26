@@ -29,7 +29,7 @@ For example:
 ```check_leap_year(2000)``` should return ```True```  
 
 ### Things to keep in mind as you go
-1. Fork and then clone the DS4 repository here ```git clone <remote repo URL``` - https://github.com/yjlintw/si206-test. If you cd to get inside the new directory, it already contains a local git repository (.git) within it.
+1. Fork and then clone the DS4 repository here ```git clone <remote repo URL>``` - https://github.com/yjlintw/si206-test. If you cd to get inside the new directory, it already contains a local git repository (.git) within it.
 
 2. Check status continuously to keep track of changes in your code and directory ```git status```
 
